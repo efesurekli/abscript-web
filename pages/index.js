@@ -1,8 +1,7 @@
 import React, { useContext, useState } from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
-import PricingSection from '../components/PricingSection';
-import LightNavBar from '../components/LightNavBar';
+// import Link from 'next/link';
+// import PricingSection from '../components/PricingSection';
 import ScriptContext from '../contexts/ScriptContext';
 import FileUpload from '../components/FileUpload';
 import { useRouter } from 'next/router';
@@ -183,7 +182,11 @@ const Index = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         />
       </Head>
-      <LightNavBar />
+      <nav className="bg-black text-white py-4 px-8 flex justify-between items-center">
+        <div className="font-mono text-lg font-semibold">
+          about<span className="text-highlight">:blank</span>
+        </div>
+      </nav>
       <div className="bg-black text-white mt-0">
         <div className="container mx-auto px-4">
           <section className="flex items-start justify-between space-x-24 my-16">

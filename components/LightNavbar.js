@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 const LightNavBar = () => {
   return (
     <nav className="bg-black text-white py-4 px-8 flex justify-between items-center">
